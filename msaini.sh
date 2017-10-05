@@ -24,8 +24,8 @@ cd /mnt/msaini_dir
 
 
 # v4 mount
-mkdir -p /mnt/mani_dir2
-mount -t nfs -o vers=4.0 ${SERVER}:${EXPORT} /mnt/mani_dir2
+mkdir -p /mnt/msaini_dir2
+mount -t nfs -o vers=4.0 ${SERVER}:${EXPORT} /mnt/msaini_dir2
 cd /mnt/msaini_dir2
 
 # implicit exit status from the last command
